@@ -8,7 +8,7 @@ function App() {
 return<>
 
 <div className='w-[auto] h-[4.3vh] flex justify-between text-xs md:text-xl' id='header' >
-  <Link to="/" className='w-[30%] flex items-center text-2xs md:w-[15%] lg:w-[10%] justify-center  font-serif-uniq  h-[100%]'>Shore Guesthouse</Link>
+  <Link to="/Oia-vacation/" className='w-[30%] flex items-center text-2xs md:w-[15%] lg:w-[10%] justify-center  font-serif-uniq  h-[100%]'>Shore Guesthouse</Link>
   <div className='w-[57%] h-[100%] md:w-[37%] flex justify-evenly ' >
 <Link to="/Gallery" className='button-header text-center flex items-center justify-center font-serif-uniq' >Gallery </Link>
 <Link to="/Information" className='button-header flex items-center justify-center  font-serif-uniq' >Information</Link>

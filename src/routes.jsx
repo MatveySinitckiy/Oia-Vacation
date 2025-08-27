@@ -7,7 +7,7 @@ import Information from "./Information";
     return <Router> 
         <Routes>
         <Route
-        path='/'
+        path='/Oia-Vacation/'
         element={<App/>}
         />
         <Route
