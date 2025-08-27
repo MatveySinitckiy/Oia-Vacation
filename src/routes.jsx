@@ -7,7 +7,7 @@ export function MainRoutes() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL || "/your-repo-name"}>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/Oia-Vacation/" element={<App />} />
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Information" element={<Information />} />
       </Routes>

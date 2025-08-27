@@ -22,6 +22,9 @@ body{
 button{
   cursor: pointer;
 }
+body{
+  background-color: black;
+}
 .img-1{
   background-image: url(./oianew.jpg);
   background-size: cover;
