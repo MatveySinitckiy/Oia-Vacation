@@ -4,7 +4,9 @@ import Gallery from "./Gallery";
 import Information from "./Information";
 
  export function MainRoutes(){
-    return <Router> 
+    return <>
+    <BrowserRouter basename={process.env.PUBLIC_URL || '/Oia-Vacation'}></BrowserRouter>    
+    <Router> 
         <Routes>
         <Route
         path='/Oia-Vacation/'
@@ -22,5 +24,5 @@ import Information from "./Information";
         
         </Routes>
     </Router>
-         
+         </>
 }
