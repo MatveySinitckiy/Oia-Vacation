@@ -10,12 +10,13 @@ import Information from "./Information";
         path='/Oia-Vacation/'
         element={<App/>}
         />
+        
         <Route
-        path='/Gallery'
+        path='/Oia-Vacation/Gallery'
         element={<Gallery/>}
                 />
          <Route
-        path='/Information'
+        path='/Oia-Vacation/Information'
         element={<Information/>}
                 />
         

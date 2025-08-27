@@ -45,10 +45,10 @@ function Gallery(){
 
     return<>
    <div className='w-[auto] h-[4.3vh] flex justify-between text-xs md:text-xl border-b-1 sticky z-3 top-0 left-0' id='header' >
-  <Link to="/Oia-vacation/" className='w-[30%] flex items-center text-2xs md:w-[15%]  justify-center  font-serif-uniq  h-[100%]'>Shore Guesthouse</Link>
+  <Link to="/Oia-Vacation/" className='w-[30%] flex items-center text-2xs md:w-[15%]  justify-center  font-serif-uniq  h-[100%]'>Shore Guesthouse</Link>
   <div className='w-[57%] h-[100%] md:w-[37%] flex justify-evenly ' >
-<Link to="/Gallery" className='button-header text-center flex items-center justify-center font-serif-uniq' >Gallery </Link>
-<Link to="/Information" className='button-header flex items-center justify-center  font-serif-uniq' >Information</Link>
+<Link to="/Oia-Vacation/Gallery" className='button-header text-center flex items-center justify-center font-serif-uniq' >Gallery </Link>
+<Link to="/Oia-Vacation/Information" className='button-header flex items-center justify-center  font-serif-uniq' >Information</Link>
 <button className='button-header bg-black hover:bg-orange-200 hover:text-black text-white font-normal active:bg-amber-100 active:text-black active:shadow-amber-200' >Book now</button>
   </div>
 </div>

@@ -23,7 +23,7 @@ button{
   cursor: pointer;
 }
 .img-1{
-  background-image: url(/public/oianew.jpg);
+  background-image: url(./oianew.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -31,13 +31,13 @@ button{
   @apply hover:scale-105 hover:shadow-2xl transition-all hover:mb-[1vh]
 }
 .footer{
-  background-image: url(../footer.jpg);
+  background-image: url(./footer.jpg);
 }
 .footer-1{
-  background-image: url(../oia.jpg);
+  background-image: url(./oia.jpg);
 }
 .footer-2{
-  background-image: url(../gallery-hs1.jpg);
+  background-image: url(./gallery-hs1.jpg);
   background-size: cover;
 }
 .anim{
@@ -57,11 +57,11 @@ button{
   }
 }
 .galleryhs1{
-  background-image: url(../gallery-hs1.jpg);
+  background-image: url(./gallery-hs1.jpg);
   background-size: cover;
 }
 .infhs1{
-  background-image: url(../neighboorhod.jpg);
+  background-image: url(./neighboorhod.jpg);
   background-size: cover;
 }
 .bg1{
