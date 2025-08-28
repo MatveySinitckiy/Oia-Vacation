@@ -25,7 +25,7 @@ button{
 
 
 .img-1{
-  background-image: url(./oianew.jpg);
+  background-image: url(../oianew.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -33,13 +33,13 @@ button{
   @apply hover:scale-105 hover:shadow-2xl transition-all hover:mb-[1vh]
 }
 .footer{
-  background-image: url(./footer.jpg);
+  background-image: url(../footer.jpg);
 }
 .footer-1{
-  background-image: url(./oia.jpg);
+  background-image: url(../oia.jpg);
 }
 .footer-2{
-  background-image: url(./gallery-hs1.jpg);
+  background-image: url(../gallery-hs1.jpg);
   background-size: cover;
 }
 .anim{
@@ -59,31 +59,31 @@ button{
   }
 }
 .galleryhs1{
-  background-image: url(./gallery-hs1.jpg);
+  background-image: url(../gallery-hs1.jpg);
   background-size: cover;
 }
 .infhs1{
-  background-image: url(./neighboorhod.jpg);
+  background-image: url(../neighboorhod.jpg);
   background-size: cover;
 }
 .bg1{
-  background-image: url(./1-16-9.jpg);
+  background-image: url(../1-16-9.jpg);
   background-size: cover;
 }
 .bg2{
-  background-image: url(./bed16-9.jpg);
+  background-image: url(../bed16-9.jpg);
   background-size: cover;
 }
 .bg3{
-  background-image: url(./2-16-9.jpg);
+  background-image: url(../2-16-9.jpg);
   background-size: cover;
 }
 .bg4{
-  background-image: url(./3-16-9.jpg);
+  background-image: url(../3-16-9.jpg);
   background-size: cover;
 }
 @media (max-width: 768px) {
  .img-1{
-  background-image: url(./pvhs1.jpg);
+  background-image: url(../pvhs1.jpg);
  }
 }
